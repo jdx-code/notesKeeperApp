@@ -1,0 +1,38 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    background-color: yellow;
+    min-height: 90px;
+    width: 100%;
+    margin-top: -20px;    
+    padding: 20px;
+}
+.noteClass{
+    background: linear-gradient(#ffeebb, #ffeeaa);
+    width: 150px;
+    height: 150px;    
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0 red;
+    padding: 8px;
+    margin:20px 20px;   
+    overflow:scroll;  
+    display: flex;
+    justify-content:space-around;
+}
+footer{
+    background-color: #222;
+    color: #fff;
+    position: relative;
+    bottom:0;
+    padding: 10px;
+    text-align: center;    
+    width:100%;    
+    height:50px;
+}
